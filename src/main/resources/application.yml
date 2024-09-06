@@ -1,0 +1,47 @@
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
+
+jwt:
+  secret: REDACTED
+    
+spring:
+  mvc:
+    dispatch-options-request: true
+  datasource:
+    url: REDACTED
+    username: REDACTED
+    password: REDACTED
+    driver-class-name: com.mysql.jdbc.Driver
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+  
+  main:
+    allow-bean-definition-overriding: true
+  
+
+  mail:
+    host: REDACTED
+    port: REDACTED
+    username: REDACTED
+    password: REDACTED
+
+    properties:
+      mail:
+        smtp:
+          ssl:
+            trust: "*"
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000
+

@@ -1,0 +1,6 @@
+{
+    "type": "module",
+    "collectCoverage":true,
+    "coverageReportes": ["lcov"],
+    "coverageDirector": "./output/code-cov-ui"
+}

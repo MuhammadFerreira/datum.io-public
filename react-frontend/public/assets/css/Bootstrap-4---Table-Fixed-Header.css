@@ -1,0 +1,35 @@
+.table-fixed tbody {
+  height: 300px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+}
+
+.table-fixed tbody td, .table-fixed tbody th, .table-fixed thead > tr > th {
+  float: left;
+  position: relative;
+}
+
+.outline-border {
+  text-indent: 5%;
+  /*border-top: 1px solid black;*/
+  /*border-bottom: 1px solid black;*/
+  border: 1px solid transparent;
+  border-radius: 50px;
+  background-image: linear-gradient(white, white), linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+  /*color: white;*/
+  /*width: 40px;*/
+  /*padding: 20px;*/
+  /*border-top: 2px solid #47c465;*/
+  /*border-bottom: 2px solid #00deff;*/
+  /*background-image: linear-gradient(#00d1ff, #fddc30), linear-gradient(#00d1ff, #fddc30);*/
+  /*background-size: 2px 100%;*/
+  /*background-position: 0 0, 100% 0;*/
+  /*background-repeat: no-repeat;*/
+}
+

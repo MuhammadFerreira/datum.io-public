@@ -1,0 +1,43 @@
+server:
+  port: 8080
+
+jwt:
+  auth:
+    app: REDACTED
+    secret_key: REDACTED
+    expires_in: REDACTED
+
+spring:
+  datasource:
+    url: REDACTED
+    username: REDACTED
+    password: REDACTED
+    driver-class-name: REDACTED
+  
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+  
+  main:
+    allow-bean-definition-overriding: true
+
+  mail:
+    host: REDACTED
+    port: REDACTED
+    username: REDACTED
+    password: REDACTED
+    test-connection: false
+
+    properties:
+      mail:
+        smtp:
+          ssl:
+            trust: "*"
+          auth: true
+          starttls:
+            enable: true
+

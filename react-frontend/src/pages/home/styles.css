@@ -1,0 +1,15 @@
+.blob-gradient3 {
+  fill: url(#radial-gradient3) rgb(255, 255, 255);
+}
+
+.blob-gradient1 {
+  fill: url(#radial-gradient1) rgb(255, 255, 255);
+}
+
+.blob-gradient2 {
+  fill: url(#radial-gradient2) rgb(255, 255, 255);
+}
+
+.blob-gradient {
+  fill: url(#radial-gradient) rgb(255, 255, 255);
+}

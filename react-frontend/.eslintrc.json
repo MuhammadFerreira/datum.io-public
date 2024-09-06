@@ -1,0 +1,28 @@
+{
+    "env": {
+        "node": true,
+        "browser": true
+    },
+    "parser": "@babel/eslint-parser",
+    "extends": "eslint:recommended",
+    "plugins": ["react"],
+    "parserOptions": {
+        "requireConfigFile": false,
+        "babelOptions": {
+            "presets": ["@babel/preset-react"]
+         }
+        },
+    "rules": {
+        "react/jsx-uses-react": "error",   
+        "react/jsx-uses-vars": "error",
+
+        "consistent-return":"error",
+        "semi": [
+            "error",
+            "always"
+        ]
+
+    }
+
+
+}
